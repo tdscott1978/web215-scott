@@ -1,0 +1,152 @@
+@font-face { font-family: BebasNeue;
+             src: url(fonts/bebasNeue.ttf);}
+@font-face { font-family: Lato;
+             src: url(fonts/Lato.ttf);}		
+@font-face { font-family: Lato-bold;
+             src: url(fonts/Lato-Bold.ttf);}				 
+header {
+   background-image:  url("../images/unb.jpg");
+   height: 300px;
+   width: 100%;
+   background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+
+}
+
+
+h1 { text-align: center;
+          color: #000FFF; 
+		  font-family: BebasNeue;}
+		  
+.hel {font-family: helvetica;
+	  font-weight: bold;}
+.babas {font-family: BebasNeue;}
+.lato {font-family: Lato-Bold;
+		font-weight: bold;}
+		  
+.center	{color: #FF0000;}
+.main { background-color: #FFFFFF; 
+	   background-repeat: repeat;
+       color: #000000;
+	   font-family: Lato;
+	   font-size: 20px;
+	  
+	  
+
+  margin: 0;
+  display: grid;
+  
+     }
+	 
+
+
+.module-border-wrap {
+  max-width: 100%;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, gray, blue);
+  padding: 3px;
+}
+
+.module {
+  background: #FFF;
+  color: #000;
+  padding: 1px;
+}
+	 
+.footer {
+   padding-top: 5px;	
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000000;
+   text-align: center;
+   clear: both;
+   Color: #FFFFFF;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+	
+	/* Sample Color palette */
+	
+
+
+.color1, .color2, .color3, .color4  { border:5px solid #fff; 
+                                      width:80px; 
+									  height:80px; 
+									  float: left; 
+									  margin-right:10px; 
+									  }
+
+.color1 span,.color2 span,.color3 span,.color4 span { background-color:#fff;}
+
+		.color1 { background-color:#000000; }
+		.color2 { background-color:#FF0000; }
+		.color3 { background-color:#C0C0C0; }
+		.color4 { background-color:#0000FF; }
+		
+/*navigation sidebar*/
+		
+	.sidenav {
+  font-family: helvetica;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}	
+		
+		
+		
